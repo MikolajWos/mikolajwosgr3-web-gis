@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 10fr 0.1fr;
+    grid-template-areas: "tytyl tytyl tytyl tytyl" "obrazek obrazek legia legia" "obrazek obrazek arsenal arsenal" "obrazek obrazek real-madryt real-madryt" "obrazek obrazek barcelona barcelona" "obrazek obrazek bayern- bayern-" "mapa mapa mapa mapa" "stopka stopka stopka stopka";
+  }
+  
+  .tytyl { grid-area: tytyl;
+    background-color:red; }
+  
+  .legia { grid-area: legia;
+    background-color:yellowgreen; }
+  
+  .arsenal { grid-area: arsenal;
+    background-color:silver; }
+  
+  .real-madryt { grid-area: real-madryt;
+    background-color:pink; }
+  
+  .barcelona { grid-area: barcelona;
+    background-color:yellow; }
+  
+  .bayern- { grid-area: bayern-; 
+    background-color:green;}
+  
+  .obrazek { grid-area: obrazek;
+    background-color:violet; }
+  
+  #mapa { grid-area: mapa;
+    background-color:blue; }
+  
+  .stopka { grid-area: stopka;
+    background-color:orange; }
+  
